@@ -1,0 +1,96 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <title>Hero Academy Survey</title>
+  </head>
+  
+  <body>
+    <h1 id="title">Hero Academy Super-Survey</h1>
+    <div id="surround">
+    <p id="description">
+      Let us know who you are and how we're doing.
+    </p>
+    <form id="survey-form" class="container">
+      <div>
+      <label id="name-label">*Name:</label><input type="text" placeholder="Enter Your Name" id="name" class="ifield" name="name" required>
+      </div>
+      <div>
+      <label id="email-label">*Email:</label><input type="email" placeholder="Enter Your Email" id="email" class="ifield" name="mail" required>
+      </div>
+      <div>
+      <label id="number-label"> *Age:       </label><input type="number" placeholder="Enter your Age" min="1" max="99" id="number" class="ifield" name="number" required>
+      </div>
+      
+      <div id="currentStat">
+        <label for="currentStat">Which option best describes your current status?</label>
+        <select id="dropdown" name="currentStatus" class="dropdown">
+          <option disabled value>Select an option</option>
+          <option value= "ftHS">Full-Time Hero Student</option>
+          <option value="ptHS">Part-Time Hero Student</option>
+          <option value="aHC">Annual Hero Certification</option>
+          <option value="pNS">Prefer not to Say</option>
+           <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <div class="radio">
+        <div>
+        <label for="program">Would you recommend this Hero Academy to your friends?</label>
+        </div>
+        <div>
+        <ul style="list-style: none;" class="radio1">
+          <li><input type="radio" name="radio" value="1"><label>Yes</label></li>
+          <li><input type="radio" name="radio" value="2"><label>No</label></li>
+          <li><input type="radio" name="radio" value="3"><label>Maybe, if I had a better super power.</label></li>
+          <li><input type="radio" name="radio" value="4"><label>No, I'm a self-taught villian just satisfying my yearly Continued Education requirements</label></li>
+        </ul>
+      </div>
+      
+      <div class="dropdown2">
+      <label for="desire">What would you like to see improved with Hero Academy?</label>
+        <select id="dropdown" name="desire" class="dropdown2">
+          <option disabled value>Select and option</option>
+          <option value="Powers">More Super Powers</option>
+          <option value="community">Community</option>
+          <option value="diversity">Diversity</option>
+          <option value="remote">Remote learning</option>
+          <option value="history">More history classes</option>
+          <option value="food">Better cafeteria food options</option>
+          <option value="villian">Supervillian training</option>
+        </select>
+      </div>
+      
+      <div class="check-boxes">
+        <label for="powers">What Superpowers did you learn?</label> 
+          <ul style="list-style: none;" class="powers">
+          <li><input id="mind-control" type="checkbox" name="power" value="1"><label>Mind Control</label></li>
+          <li><input id="super-strength" type="checkbox" name="power" value="2"><label>Super Strength</label></li>
+          <li><input id="teleportation" type="checkbox" name="power" value="3"><label>Teleportation</label></li>
+            <li><input id="invisibility" type="checkbox" name="power" value="4"><label>Invisibility</label></li>
+            <li><input id="flight" type="checkbox" name="power" value="5"><label>Flight</label></li>
+            <li><input id="healing" type="checkbox" name="power" value="6"><label>Healing</label></li>
+            <li><input id="speed" type="checkbox" name="power" value="7"><label>Speed</label></li>
+            <li><input id="invulnerability" type="checkbox" name="power" value="8"><label>Invulnerability</label></li> 
+            <li><input id="atmokenesis" type="checkbox" name="power" value="9"><label>Atmokinesis</label></li>
+            <li><input id="superspeed" type="checkbox" name="power" value="10"><label>Super Speed</label></li>
+            <li><input id="immortality" type="checkbox" name="power" value="11"><label>immortality</label></li>
+        </ul>
+      </div>
+     
+      <div>
+        <label for="comments">Additional Suggestions:</label>
+        <textarea id="comments" class="input-field" name="comments" placeholder="Enter your comments here..."></textarea>
+          </div>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+      </div>
+      
+      <footer><h5>Written and Coded by <a href="https://www.freecodecamp.org/rendon" target="_blank">Rendon Elsesser</a> for educational purposes only.</h5>
+</footer>

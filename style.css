@@ -1,0 +1,52 @@
+#title{
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
+  Padding-top: 15px;
+  font-size: 50px;
+}
+body{
+  background-color: #008EF7;
+  font-family: helvetica, sans-serif;
+  min-width: 350px;
+}
+
+.container{
+  grid-template-columns: 1fr, 1fr;
+}
+
+#surround{
+  background-color: #F7E800;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 70%;
+  max-width:800px;
+  padding: 100px;
+  padding-top: 20px;
+  box-shadow:1px 1px 20px black;
+}
+.ifield{
+  width: 250px;
+  height: 20px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+  #currentStat, .radio{
+    padding: 15px 0 15px 0;
+}
+
+.radio1{
+  margin-left: 
+}
+
+button[type=submit] {
+  background: #007FF7;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 32px;
+  margin: 10px 10px 10px 400px;
+  
+}
